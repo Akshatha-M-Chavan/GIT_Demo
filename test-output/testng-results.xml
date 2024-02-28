@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="23" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-19T12:24:25 IST" name="Suite" finished-at="2024-02-19T12:24:25 IST" duration-ms="237">
+    <groups>
+      <group name="smoke">
+        <method signature="Demo3.SmokeTC3()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" name="SmokeTC3" class="TestNg_Frameworks.Demo3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-02-19T12:24:25 IST" name="Personal Loan" finished-at="2024-02-19T12:24:25 IST" duration-ms="116">
+      <class name="TestNg_Frameworks.Demo2">
+        <test-method is-config="true" signature="BeforeTestExecution()[pri:0, instance:TestNg_Frameworks.Demo2@618425b5]" started-at="2024-02-19T12:24:25 IST" name="BeforeTestExecution" finished-at="2024-02-19T12:24:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestExecution -->
+        <test-method signature="Third_test(java.lang.String)[pri:0, instance:TestNg_Frameworks.Demo2@618425b5]" started-at="2024-02-19T12:24:25 IST" name="Third_test" finished-at="2024-02-19T12:24:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Third_test -->
+        <test-method is-config="true" signature="LastTestExecution()[pri:0, instance:TestNg_Frameworks.Demo2@618425b5]" started-at="2024-02-19T12:24:25 IST" name="LastTestExecution" finished-at="2024-02-19T12:24:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastTestExecution -->
+      </class> <!-- TestNg_Frameworks.Demo2 -->
+      <class name="TestNg_Frameworks.Demo1">
+        <test-method signature="DEF()[pri:0, instance:TestNg_Frameworks.Demo1@7ea9e1e2]" started-at="2024-02-19T12:24:25 IST" name="DEF" finished-at="2024-02-19T12:24:25 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DEF -->
+        <test-method signature="Second_test(java.lang.String,java.lang.String)[pri:0, instance:TestNg_Frameworks.Demo1@7ea9e1e2]" started-at="2024-02-19T12:24:25 IST" name="Second_test" finished-at="2024-02-19T12:24:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testadmin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Second_test -->
+        <test-method signature="first_test()[pri:0, instance:TestNg_Frameworks.Demo1@7ea9e1e2]" started-at="2024-02-19T12:24:25 IST" name="first_test" finished-at="2024-02-19T12:24:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first_test -->
+        <test-method signature="waitforfewsec()[pri:0, instance:TestNg_Frameworks.Demo1@7ea9e1e2]" started-at="2024-02-19T12:24:25 IST" name="waitforfewsec" finished-at="2024-02-19T12:24:25 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitforfewsec -->
+        <test-method signature="ABC()[pri:0, instance:TestNg_Frameworks.Demo1@7ea9e1e2]" started-at="2024-02-19T12:24:25 IST" name="ABC" finished-at="2024-02-19T12:24:25 IST" depends-on-methods="TestNg_Frameworks.Demo1.DEF" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ABC -->
+      </class> <!-- TestNg_Frameworks.Demo1 -->
+      <class name="TestNg_Frameworks.Demo4">
+        <test-method signature="Eighth_test(java.lang.String,java.lang.String)[pri:0, instance:TestNg_Frameworks.Demo4@f5acb9d]" started-at="2024-02-19T12:24:25 IST" name="Eighth_test" data-provider="getdata" finished-at="2024-02-19T12:24:25 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Eighth_test -->
+        <test-method signature="Eighth_test(java.lang.String,java.lang.String)[pri:0, instance:TestNg_Frameworks.Demo4@f5acb9d]" started-at="2024-02-19T12:24:25 IST" name="Eighth_test" data-provider="getdata" finished-at="2024-02-19T12:24:25 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Eighth_test -->
+        <test-method signature="Eighth_test(java.lang.String,java.lang.String)[pri:0, instance:TestNg_Frameworks.Demo4@f5acb9d]" started-at="2024-02-19T12:24:25 IST" name="Eighth_test" data-provider="getdata" finished-at="2024-02-19T12:24:25 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Eighth_test -->
+        <test-method signature="Ninghth_test()[pri:0, instance:TestNg_Frameworks.Demo4@f5acb9d]" started-at="2024-02-19T12:24:25 IST" name="Ninghth_test" finished-at="2024-02-19T12:24:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ninghth_test -->
+        <test-method signature="Seventh_test()[pri:0, instance:TestNg_Frameworks.Demo4@f5acb9d]" started-at="2024-02-19T12:24:25 IST" name="Seventh_test" finished-at="2024-02-19T12:24:25 IST" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at TestNg_Frameworks.Demo4.Seventh_test(Demo4.java:13)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Seventh_test -->
+      </class> <!-- TestNg_Frameworks.Demo4 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2024-02-19T12:24:25 IST" name="Home Loan" finished-at="2024-02-19T12:24:25 IST" duration-ms="14">
+      <class name="TestNg_Frameworks.Demo2">
+        <test-method is-config="true" signature="FirstSuite()[pri:0, instance:TestNg_Frameworks.Demo2@618425b5]" started-at="2024-02-19T12:24:25 IST" name="FirstSuite" finished-at="2024-02-19T12:24:25 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstSuite -->
+        <test-method is-config="true" signature="LastSuite()[pri:0, instance:TestNg_Frameworks.Demo2@618425b5]" started-at="2024-02-19T12:24:25 IST" name="LastSuite" finished-at="2024-02-19T12:24:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastSuite -->
+      </class> <!-- TestNg_Frameworks.Demo2 -->
+      <class name="TestNg_Frameworks.Demo3">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" started-at="2024-02-19T12:24:25 IST" name="BeforeClass" finished-at="2024-02-19T12:24:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod1()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" started-at="2024-02-19T12:24:25 IST" name="BeforeMethod1" finished-at="2024-02-19T12:24:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod1 -->
+        <test-method signature="Fifth_test()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" started-at="2024-02-19T12:24:25 IST" name="Fifth_test" finished-at="2024-02-19T12:24:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fifth_test -->
+        <test-method is-config="true" signature="AfterMethod1()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" started-at="2024-02-19T12:24:25 IST" name="AfterMethod1" finished-at="2024-02-19T12:24:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod1 -->
+        <test-method is-config="true" signature="BeforeMethod1()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" started-at="2024-02-19T12:24:25 IST" name="BeforeMethod1" finished-at="2024-02-19T12:24:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod1 -->
+        <test-method signature="Sixth_test()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" started-at="2024-02-19T12:24:25 IST" name="Sixth_test" finished-at="2024-02-19T12:24:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sixth_test -->
+        <test-method is-config="true" signature="BeforeMethod1()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" started-at="2024-02-19T12:24:25 IST" name="BeforeMethod1" finished-at="2024-02-19T12:24:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod1 -->
+        <test-method is-config="true" signature="AfterMethod1()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" started-at="2024-02-19T12:24:25 IST" name="AfterMethod1" finished-at="2024-02-19T12:24:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod1 -->
+        <test-method signature="SmokeTC3()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" started-at="2024-02-19T12:24:25 IST" name="SmokeTC3" finished-at="2024-02-19T12:24:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SmokeTC3 -->
+        <test-method is-config="true" signature="AfterMethod1()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" started-at="2024-02-19T12:24:25 IST" name="AfterMethod1" finished-at="2024-02-19T12:24:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod1 -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:TestNg_Frameworks.Demo3@b9b00e0]" started-at="2024-02-19T12:24:25 IST" name="AfterClass" finished-at="2024-02-19T12:24:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- TestNg_Frameworks.Demo3 -->
+      <class name="TestNg_Frameworks.Demo5">
+        <test-method signature="Tenth_test()[pri:0, instance:TestNg_Frameworks.Demo5@506ae4d4]" started-at="2024-02-19T12:24:25 IST" name="Tenth_test" finished-at="2024-02-19T12:24:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tenth_test -->
+      </class> <!-- TestNg_Frameworks.Demo5 -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Suite -->
+</testng-results>
